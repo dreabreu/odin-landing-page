@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 25px;
+}
+
+.header-list a, #site-description {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.blue-container, .white-container, .grey-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 250px;
+}
+
+.blue-container {
+    background-color: #1f2937;
+}
+
+.white-container {
+    background-color: white;
+}
+
+.grey-container {
+    background-color: #e5e7eb;
+}
+
+.light-blue-container {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px 200px;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 100px 0px;
+}
+
+.content, .illustration-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#site-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 20px;
+    width: max-content;
+    margin-bottom: 50px;
+}
+
+#image-placeholder {
+    color: white;
+    background-color: grey;
+    vertical-align: middle;
+    text-align: center;
+    padding: 100px 200px
+}
+
+#site-description {
+    margin: 12px 0px;
+}
+
+#random-info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+
+.illustration-content {
+    align-items: center;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#illustration {
+    padding: 100px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+#illustration-text {
+    color: rgb(85, 85, 85);
+    width: 125px;
+    text-align: center;
+}
+
+.quote-container {
+    padding: 150px 200px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#cta {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cta-button {
+    border: 2px solid white;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+#copyright {
+    color: #f9faf8;
+    padding: 50px;
+    text-align: center;
+}
